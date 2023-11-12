@@ -38,18 +38,4 @@ sudo chown jenkins:www-data html
 
 sudo usermod -aG www-data jenkins
 
-echo "Working started"
-
-rm -rf /var/www/html/*
-cp -r * /var/www/html/
-
-
-
-
-
-
-
-
-AlgoriThm1996!@#
-
 
