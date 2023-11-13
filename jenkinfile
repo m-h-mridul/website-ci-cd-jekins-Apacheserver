@@ -1,3 +1,5 @@
 echo "Working started"
+# remove the previous code which are old 
 rm -rf /var/www/html/*
+# copy the updated code to the server
 cp -r * /var/www/html/
